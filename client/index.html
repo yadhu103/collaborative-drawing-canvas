@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Canvas - Phase 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sketchy</h1>
+    
+    <div class="toolbar">
+        <label for="color-picker">Color:</label>
+        <input type="color" id="color-picker" value="#000000">
+        
+        <label for="stroke-width">Width:</label>
+        <input type="range" id="stroke-width" min="1" max="50" value="5">
+        
+        <button id="brush-btn">Brush</button>
+        <button id="eraser-btn">Eraser</button>
+        <button id="undo-btn">Undo</button>
+        <button id="redo-btn">Redo</button>
+    </div>
+
+    <div class="canvas-container">
+        <canvas id="drawing-canvas"></canvas>
+        <canvas id="cursor-canvas"></canvas>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="websocket.js"></script>
+
+    <script src="canvas.js"></script>
+</body>
+</html>
