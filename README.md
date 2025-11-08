@@ -26,4 +26,4 @@ npm install express socket.io
 node server.js
 ```
 
-Visit [http://localhost:3000](http://localhost:3000)
+Visit https://collaborative-drawing-canvas-giq2.onrender.com for accessing the site.
