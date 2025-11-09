@@ -23,7 +23,7 @@
 ## 🛠️ Setup
 ```bash
 npm install express socket.io
-node server.js
+node server/server.js
 ```
 
 Visit https://collaborative-drawing-canvas-giq2.onrender.com for accessing the site.
